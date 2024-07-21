@@ -21,6 +21,7 @@ SoloLFG.Announce = 1
 
 #    SoloLFG.FixedXP
 #        Description: Set the XP rate in dungeons to FixedXPRate
+#               描述: 设定副本的经验值为固定比例
 #        Default:     1  - (Enabled)
 #                     0  - (Disabled)
 
