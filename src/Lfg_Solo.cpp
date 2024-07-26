@@ -23,7 +23,7 @@ public:
         // Announce Module
         if (sConfigMgr->GetOption<bool>("SoloLFG.Announce", true))
         {
-            ChatHandler(player->GetSession()).SendSysMessage("This server is running the |cff4CFF00Solo Dungeon Finder |rmodule.");
+            ChatHandler(player->GetSession()).SendSysMessage("服务器已启用 |cff4CFF00单人地下城查找器 |r模块，此模块受渐进模块影响。");
         }
     }
 
